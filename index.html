@@ -2,122 +2,135 @@
 <html lang="fr">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouhaila Benbot | Portfolio</title>
 
-<title>Nouhaila Benbot | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
+<!-- ================= NAVBAR ================= -->
+
 <nav>
 
-<div class="logo">
+    <div class="logo">
+        Nouhaila.
+    </div>
 
-Nouhaila.
+    <ul>
 
-</div>
+        <li><a href="#about">À propos</a></li>
 
-<ul>
+        <li><a href="#skills">Compétences</a></li>
 
-<li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
 
-<li><a href="#skills">Compétences</a></li>
+        <li><a href="#certifications">Certifications</a></li>
 
-<li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
 
-<li><a href="#contact">Contact</a></li>
-
-</ul>
+    </ul>
 
 </nav>
 
+<!-- ================= HERO ================= -->
+
 <section class="hero">
 
-<div class="hero-text">
+    <div class="hero-text">
 
-<p class="hello">
+        <p class="hello">
+            👋 Bonjour !
+        </p>
 
-👋 Bonjour
+        <h1>
 
-</p>
+            Je suis
 
-<h1>
+            <span>Nouhaila Benbot</span>
 
-Je suis
+        </h1>
 
-<span>Nouhaila Benbot</span>
+        <h2>
 
-</h1>
+            Étudiante en Génie des Réseaux et Télécommunications
 
-<h2>
+        </h2>
 
-Étudiante en Génie des Réseaux et Télécommunications
+        <p class="description">
 
-</h2>
+            Étudiante à l'ENSA Safi, passionnée par les réseaux informatiques,
+            l'administration des systèmes Linux, la cybersécurité et
+            l'intelligence artificielle.
 
-<p class="description">
+            Je recherche un stage afin de mettre en pratique mes compétences
+            techniques et contribuer à des projets innovants.
 
-Passionnée par les réseaux, Linux et la cybersécurité.
-Je souhaite intégrer une entreprise où je pourrai développer
-mes compétences techniques et contribuer à des projets innovants.
+        </p>
 
-</p>
+        <div class="buttons">
 
-<div class="buttons">
+            <a href="CV_Nouhaila_Benbot.pdf" class="btn">
 
-<a href="CV Nuhaaa.pdf" class="btn">
+                Télécharger mon CV
 
-Télécharger mon CV
+            </a>
 
-</a>
+            <a href="#contact" class="btn2">
 
-<a href="#contact" class="btn2">
+                Me contacter
 
-Me contacter
+            </a>
 
-</a>
+        </div>
 
-</div>
+    </div>
 
-</div>
+    <div class="hero-image">
 
-<div class="hero-image">
+        <div class="circle"></div>
 
-<div class="circle"></div>
+        <img src="profile.jpg" alt="Nouhaila Benbot">
 
-<img src="profile.jpg">
-
-</div>
+    </div>
 
 </section>
+
+<!-- ================= ABOUT ================= -->
 
 <section id="about">
 
-<h2>À propos</h2>
+    <h2>À propos de moi</h2>
 
-<p>
+    <p>
 
-Je suis étudiante en Génie des Réseaux et Télécommunications.
-J'aime la conception d'infrastructures réseau,
-l'administration Linux, Python et la cybersécurité.
+        Je suis actuellement étudiante en Génie des Réseaux et
+        Télécommunications à l'ENSA Safi.
 
-</p>
+        Passionnée par la conception d'infrastructures réseau,
+        l'administration système et la cybersécurité,
+        j'aime transformer les connaissances théoriques
+        en projets concrets.
+
+        Je m'intéresse également à l'intelligence artificielle
+        et aux nouvelles technologies.
+
+    </p>
 
 </section>
+
+<!-- ================= SKILLS ================= -->
 
 <section id="skills">
 
@@ -131,15 +144,27 @@ l'administration Linux, Python et la cybersécurité.
 
 <h3>Réseaux</h3>
 
-<p>
+<ul>
 
-Cisco<br>
-IPv4<br>
-VLAN<br>
-DHCP<br>
-Routage
+<li>Cisco Packet Tracer</li>
 
-</p>
+<li>TCP/IP</li>
+
+<li>IPv4</li>
+
+<li>VLAN</li>
+
+<li>Routage Inter-VLAN</li>
+
+<li>DHCP</li>
+
+<li>DNS</li>
+
+<li>NAT</li>
+
+<li>Cisco ASA</li>
+
+</ul>
 
 </div>
 
@@ -147,15 +172,19 @@ Routage
 
 <i class="fa-brands fa-linux"></i>
 
-<h3>Linux</h3>
+<h3>Systèmes</h3>
 
-<p>
+<ul>
 
-Administration<br>
-Serveurs<br>
-VirtualBox
+<li>Linux</li>
 
-</p>
+<li>Windows</li>
+
+<li>VirtualBox</li>
+
+<li>Administration système</li>
+
+</ul>
 
 </div>
 
@@ -165,101 +194,223 @@ VirtualBox
 
 <h3>Développement</h3>
 
-<p>
+<ul>
 
-Python<br>
-HTML<br>
-CSS<br>
-SQL
+<li>Python</li>
 
-</p>
+<li>HTML5</li>
+
+<li>CSS3</li>
+
+<li>SQL</li>
+
+<li>Git / GitHub</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-brain"></i>
+
+<h3>Intelligence Artificielle</h3>
+
+<ul>
+
+<li>Prompt Engineering</li>
+
+<li>AI Tools</li>
+
+<li>IA Générative</li>
+
+</ul>
 
 </div>
 
 </div>
 
 </section>
+<!-- ================= PROJETS ================= -->
 
 <section id="projects">
 
-<h2>Mes projets</h2>
+    <h2>Mes Projets</h2>
 
-<div class="cards">
+    <div class="cards">
 
-<div class="card">
+        <!-- Projet 1 -->
 
-<h3>Infrastructure Réseau</h3>
+        <div class="project-card">
 
-<p>
+            <div class="project-icon">
+                <i class="fa-solid fa-network-wired"></i>
+            </div>
 
-Conception d'une infrastructure multi-VLAN
-avec routage inter-VLAN.
+            <h3>Conception et Sécurisation d'une Infrastructure Réseau</h3>
 
-</p>
+            <p>
 
-</div>
+                Réalisation d'une infrastructure réseau complète sous Cisco Packet Tracer
+                intégrant la segmentation en VLAN, le routage Inter-VLAN, des serveurs
+                Web HTTP/HTTPS ainsi qu'un pare-feu Cisco ASA afin d'assurer
+                la sécurité et la disponibilité des services.
 
-<div class="card">
+            </p>
 
-<h3>Linux</h3>
+            <div class="tags">
 
-<p>
+                <span>Cisco Packet Tracer</span>
+                <span>VLAN</span>
+                <span>Inter-VLAN</span>
+                <span>Cisco ASA</span>
+                <span>HTTP</span>
+                <span>HTTPS</span>
+                <span>NAT</span>
 
-Configuration d'un serveur Linux.
+            </div>
 
-</p>
+        </div>
 
-</div>
+        <!-- Projet 2 -->
 
-<div class="card">
+        <div class="project-card">
 
-<h3>Projet de Stage</h3>
+            <div class="project-icon">
+                <i class="fa-solid fa-solar-panel"></i>
+            </div>
 
-<p>
+            <h3>Voiture Solaire Télécommandée (TIPE)</h3>
 
-Simulation d'un réseau d'entreprise.
+            <p>
 
-</p>
+                Conception et réalisation d'une voiture télécommandée alimentée par
+                énergie solaire dans le cadre d'un TIPE. Ce projet m'a permis de
+                développer des compétences en électronique, énergie renouvelable
+                et travail d'équipe.
 
-</div>
+            </p>
 
-</div>
+            <div class="tags">
+
+                <span>Électronique</span>
+                <span>Énergie Solaire</span>
+                <span>Arduino</span>
+                <span>Travail d'équipe</span>
+
+            </div>
+
+        </div>
+
+        <!-- Projet 3 -->
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-person-biking"></i>
+            </div>
+
+            <h3>Training Bike (TIPE)</h3>
+
+            <p>
+
+                Étude et développement d'un Training Bike permettant
+                l'amélioration des performances sportives.
+                Ce projet m'a permis d'acquérir des compétences
+                en conception, analyse et prototypage.
+
+            </p>
+
+            <div class="tags">
+
+                <span>Conception</span>
+                <span>Innovation</span>
+                <span>Prototypage</span>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications">
+
+    <h2>Certifications</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <i class="fa-solid fa-certificate"></i>
+
+            <h3>ALX AI Career Essentials</h3>
+
+            <p>
+
+                Formation certifiante en Intelligence Artificielle couvrant les
+                fondamentaux de l'IA, les outils d'IA générative et le Prompt Engineering.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <h3>Cisco CCNA</h3>
+
+            <p>
+
+                En préparation
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
 
 <section id="contact">
 
-<h2>Contact</h2>
+    <h2>Contact</h2>
 
-<p>
+    <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:M135192694@gmail.com">
+            M135192694@gmail.com
+        </a>
+    </p>
 
-📧
+    <p>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/Nuhayla" target="_blank">
+            GitHub
+        </a>
+    </p>
 
-<a href="mailto:M135192694@gmail.com">
-
-M135192694@gmail.com
-
-</a>
-
-</p>
-
-<p>
-
-<i class="fab fa-github"></i>
-
-<a href="https://github.com/Nuhayla">
-
-GitHub
-
-</a>
-
-</p>
+    <!-- Remplace le lien lorsque tu créeras ton profil LinkedIn -->
+    <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="#">
+            LinkedIn
+        </a>
+    </p>
 
 </section>
 
+<!-- ================= FOOTER ================= -->
+
 <footer>
 
-© 2026 Nouhaila Benbot
+    <p>© 2026 Nouhaila Benbot | Tous droits réservés</p>
 
 </footer>
 
